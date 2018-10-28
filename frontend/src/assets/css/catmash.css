@@ -1,0 +1,195 @@
+@media (min-width: 992px) {
+    .typo-line {
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category {
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+.all-icons [class^="pe-"] {
+    font-size: 40px;
+}
+
+.all-icons input {
+    border: 0;
+}
+
+.all-icons .font-icon-detail {
+    text-align: center;
+    padding: 45px 0px 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.all-icons .font-icon-container a {
+    padding: 5px 0;
+    display: block;
+    color: #666666;
+}
+
+.all-icons .font-icon-detail input {
+    margin: 25px auto 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #aaa;
+    font-size: 13px;
+}
+
+.all-icons h5 {
+    margin-top: 60px;
+}
+
+.all-icons>div>.row:first-child h5 {
+    margin-top: 15px;
+}
+
+.places-buttons .btn {
+    margin-bottom: 30px
+}
+
+.buttons-with-margin .btn {
+    margin: 5px;
+}
+
+.buttons-with-margin .btn-group .btn {
+    margin: 5px 0px 0px 0px;
+}
+
+.animated .img-rounded {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+
+.animated .img-rounded img {
+    width: 100%;
+}
+
+.heart {
+    color: #EB5E28;
+    animation: heathing 1s ease infinite;
+}
+
+@keyframes heathing {
+    0% {
+        transform: scale(0.75);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(0.75);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(0.75);
+    }
+
+    100% {
+        transform: scale(0.75);
+    }
+}
+
+.img-contest {
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.img-contest button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    width: 100%
+}
+
+.img-contest:hover {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(63, 63, 68, 0.5);
+}
+
+.img-contest img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.table-bigboy>thead>tr>th {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: 400;
+}
+
+.table-bigboy>tbody>tr>td {
+    font-size: 14px;
+}
+
+.table-bigboy>tbody>tr>td b {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.table-bigboy .td-name {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.table-bigboy .td-name {
+    min-width: 240px;
+}
+
+.table-bigboy .td-number {
+    text-align: right;
+    min-width: 110px;
+}
+
+.table-bigboy .td-number small {
+    margin-right: 3px;
+}
+
+.table-bigboy .td-actions {
+    width: 60px;
+    min-width: auto;
+}
+
+.table-bigboy .td-actions .btn {
+    float: right;
+}
+
+.table-bigboy .img-container {
+    width: 180px;
+    height: 120px;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+
+.table-bigboy .img-container img {
+    width: 100%;
+}
