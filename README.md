@@ -4,9 +4,9 @@ CatMash Application [https://catmash.ml](https://catmash.ml)
 
 ## Locally
 ### Requirement
-- [https://www.npmjs.com](NPM)
-- [https://nodejs.org/en/](Node)
-- [https://www.mongodb.com](MongoDB Server)
+- [NPM](https://www.npmjs.com)
+- [Node](https://nodejs.org/en/)
+- [MongoDB Server](https://www.mongodb.com)
 
 ### Setup
 ```bash
