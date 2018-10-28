@@ -18,9 +18,7 @@ import {
   import { inject } from '@loopback/core';
   import { Cat } from '../models';
   import { CatRepository } from '../repositories'; 
-  
-  import { AtelierService } from '../services';
-  
+
   export class CatController {
     constructor(
       @repository(CatRepository)
