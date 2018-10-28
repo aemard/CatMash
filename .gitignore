@@ -67,7 +67,6 @@ typings/
 .DS_Store
 .vscode/
 *.sublime*
-*.seed
 *.csv
 *.dat
 *.out

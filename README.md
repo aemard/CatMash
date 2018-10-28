@@ -1,21 +1,22 @@
 # CatMash
 
-CatMash Appplication [https://catmash.ml](https://catmash.ml)
+CatMash Application [https://catmash.ml](https://catmash.ml)
 
 ## Locally
 ### Requirement
-- NPM
-- Node
-- MongoDB Server
+- [https://www.npmjs.com](NPM)
+- [https://nodejs.org/en/](Node)
+- [https://www.mongodb.com](MongoDB Server)
 
 ### Setup
+```bash
 git clone https://github.com/ArthurTheMonster/CatMash
-
+```
 #### API
 ```bash
 cd api
 npm install
-# Modify .env for your database
+# Modify happycats.datasource.json file for connect to your mongodb server
 npm start
 ```
 
@@ -25,8 +26,8 @@ See [https://loopback.io/doc/en/lb4/](https://loopback.io/doc/en/lb4/) for more 
 ```bash
 cd frontend
 npm install
-# Modify .env for connect to the CatMash API
-npm run build
+# Modify YOUR_APP_API_URL variable for connect to the CatMash API
+REACT_APP_API_URL="YOUR_APP_API_URL" npm run build
 npm install -g serve
 serve -s build
 ```

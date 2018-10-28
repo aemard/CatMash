@@ -1,5 +1,6 @@
 const application = require('./dist');
 
+require('dotenv').load();
 module.exports = application;
 
 if (require.main === module) {

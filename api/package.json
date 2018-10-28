@@ -52,6 +52,7 @@
     "@loopback/rest": "^1.0.1",
     "@loopback/service-proxy": "^1.0.0",
     "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
     "elo-calculator": "^1.0.1",
     "is-image-url": "^1.1.8",
     "loopback-connector-mongodb": "^3.9.1",
