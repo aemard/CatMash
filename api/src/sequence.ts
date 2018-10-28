@@ -10,10 +10,13 @@ import {
   SequenceHandler,
 } from '@loopback/rest';
 
+import { DatabaseService } from './services';
+
 const SequenceActions = RestBindings.SequenceActions;
 
 export class MySequence implements SequenceHandler {
   constructor(
+    @inject('services.Database') protected db: DatabaseService,
     @inject(SequenceActions.FIND_ROUTE) protected findRoute: FindRoute,
     @inject(SequenceActions.PARSE_PARAMS) protected parseParams: ParseParams,
     @inject(SequenceActions.INVOKE_METHOD) protected invoke: InvokeMethod,
@@ -24,6 +27,8 @@ export class MySequence implements SequenceHandler {
   async handle(context: RequestContext) {
     try {
       const {request, response} = context;
+      //Maybe a little bit overkill
+      await this.db.synchroniseCatsWithExternalAPI();
       const route = this.findRoute(request);
       const args = await this.parseParams(request, route);
       const result = await this.invoke(route, args);
