@@ -55,6 +55,7 @@
     "elo-calculator": "^1.0.1",
     "is-image-url": "^1.1.8",
     "loopback-connector-mongodb": "^3.9.1",
+    "loopback-connector-rest": "^3.3.0",
     "memory-cache": "^0.2.0",
     "object-hash": "^1.3.0"
   },
