@@ -60,5 +60,18 @@ typings/
 # next.js build output
 .next
 
-# vscode settings
-.vscode
+# Additional 
+
+.idea
+.project
+.DS_Store
+.vscode/
+*.sublime*
+*.seed
+*.csv
+*.dat
+*.out
+*.swp
+*.swo
+dist
+*xunit.xml
